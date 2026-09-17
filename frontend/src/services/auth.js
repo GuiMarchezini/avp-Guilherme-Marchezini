@@ -15,7 +15,7 @@ export function getToken() {
 export function removeToken() {
   // TODO: remover o token do localStorage usando a chave auth_token.
   // Sugestão para estudar: localStorage.removeItem(TOKEN_KEY);
-  return localStorage.removeItem(TOKEN_KEY);
+   localStorage.removeItem(TOKEN_KEY);
 }
 
 export function isAuthenticated() {
